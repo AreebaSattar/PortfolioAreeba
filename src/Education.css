@@ -1,0 +1,77 @@
+/* Education.css */
+.education {
+  padding: 4rem 0;
+}
+
+.education-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.2rem;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #3498db;
+}
+
+.education-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.education-item {
+  flex-basis: calc(50% - 1rem);
+  background-color: #e3eef5;
+  border-radius: 15px;
+  padding: 0rem;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #3498db;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.education-item .course-title {
+  font-size: 1.2rem;
+  color: #0b0a0a;
+  margin-top: 0;
+  margin-right: 0rem;
+  font-weight: bold;
+}
+.course-title  {
+  font-size: 3rem;
+  color: #0b0a0a;
+  margin-top: 0;
+  margin-right: 0rem;
+}
+
+.course-list {
+  list-style: none;
+  font-size: 0.9rem;
+  color: #595858;
+}
+
+.course-list li {
+  margin-bottom: 0.3rem;
+}

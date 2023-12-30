@@ -1,0 +1,64 @@
+.skills {
+  padding: 0rem 0;
+  text-align: center;
+  
+}
+
+.skills-content {
+  max-width: 920px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  background-color: #a7dbf3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #3498db;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.skill {
+  flex-basis: calc(33.33% - 2rem);
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1.2rem;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #3498db; /* Add outline border */
+  margin-bottom: 1rem;
+  height: 3rem;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.skill-level {
+  height: 7px; /* Adjust the skill level height */
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skill-level-bar {
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 8px;
+}

@@ -1,0 +1,61 @@
+.header {
+  background: linear-gradient(135deg, #1e5799 0%, #2989d8 100%);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+.header:hover {
+  background: linear-gradient(135deg, #2989d8 0%, #1e5799 100%);
+}
+
+.header-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 0.8rem; /* Adjusted spacing around the icons */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.2s ease;
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+  background-color: rgba(0, 188, 212, 0.2);
+  transform: translateY(-3px);
+}
+
+.nav-links li a svg {
+  margin-right: 0.3rem; /* Adjusted spacing around the icons */
+  transition: transform 0.2s ease-in-out;
+}

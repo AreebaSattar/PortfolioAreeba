@@ -1,0 +1,40 @@
+.footer {
+  background-color: #126da9; 
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1432px; /* Adjust the max-width as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  text-align: left;
+  flex: 1;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-left: 1rem; /* Adjust this for spacing */
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:last-child {
+  margin-right: 0; /* Remove margin from the last icon */
+}
+
+.footer .social-icons a:hover {
+  color: #00bcd4;
+}
